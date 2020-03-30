@@ -22,8 +22,9 @@ contract Election {
     );
 
     constructor () public {
-        addCandidate("Candidate 1");
-        addCandidate("Candidate 2");
+        addCandidate("PTI");
+        addCandidate("PMLN");
+        addCandidate("PPP");
     }
 
     function addCandidate (string memory _name) private {
